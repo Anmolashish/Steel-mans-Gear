@@ -1,0 +1,64 @@
+.about-page-1 {
+  height: 500vh;
+  width: 100%;
+  background: linear-gradient(to top, rgb(1, 1, 83), white);
+}
+
+.about-header-div {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Images/about-background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: clamp(2rem, 13vw, 4rem);
+  font-weight: 700;
+  position: relative;
+}
+
+.about-page-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-page-image {
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-page-image > img {
+  width: 80%;
+  border-radius: 15px;
+}
+
+.about-page-text {
+  width: 80%;
+}
+
+.about-page-heading {
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.about-page-description {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: gray;
+}
+
+.about-page-description > span:first-child {
+  margin: 40px 0px;
+}
