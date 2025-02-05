@@ -55,8 +55,8 @@ export default function HomePage3() {
                     performed well. The cutters offer precision and a good
                     finish, though I’ve found that for certain materials (like
                     hardened steel), they require more frequent re-sharpening.
-                    Still, they’ve held up well in our shop and provide great
-                    value overall. ”
+                    They’ve held up well in our shop and provide great value
+                    overall. ”
                   </p>
                 </div>
               </div>
@@ -74,11 +74,12 @@ export default function HomePage3() {
                   </div>
                 </div>
                 <div className="review">
-                  <h4>The team was very supportive and kept me motivated</h4>
+                  <h4>Precise gear cutting</h4>
                   <p>
-                    “ I started as a total newbie with virtually no coding
-                    skills. I now work as a mobile engineer for a big company.
-                    This was one of the best investments I’ve made in myself. ”
+                    “ Steelman involute gear hobs have been a crucial part of
+                    our gear production process. The teeth on the gears cut with
+                    great precision and minimal wear, which has significantly
+                    improved our production rates ”
                   </p>
                 </div>
               </div>
@@ -98,18 +99,16 @@ export default function HomePage3() {
                 <div className="review dark">
                   <h4>Such a life-changing experience. Highly recommended!</h4>
                   <p>
-                    “ Before joining the bootcamp, I’ve never written a line of
-                    code. I needed some structure from professionals who can
-                    help me learn programming step by step. I was encouraged to
-                    enroll by a former student of theirs who can only say
-                    wonderful things about the program. The entire curriculum
-                    and staff did not disappoint. They were very hands-on and I
-                    never had to wait long for assistance. The agile team
-                    project, in particular, was outstanding. It took my learning
-                    to the next level in a way that no tutorial could ever have.
-                    In fact, I’ve often referred to it during interviews as an
-                    example of experience. It certainly helped me land a job as
-                    a full-stack 100% recommend! ”
+                    “I recently purchased the Steelman's Gear 30-degree spiral
+                    bevel gear cutter for a project involving cutting gears for
+                    a custom motorcycle transmission. I was working with
+                    hardened steel, and the cutter performed exceptionally well.
+                    It provided a clean, accurate cut with a very smooth finish.
+                    I was particularly impressed with how well it held its edge;
+                    I was able to produce over 50 gears before I noticed any
+                    significant wear. Setting up the cutter was straightforward
+                    and it was compatible with my milling machine without any
+                    modifications. ”
                   </p>
                 </div>
               </div>
@@ -127,11 +126,12 @@ export default function HomePage3() {
                   </div>
                 </div>
                 <div className="review dark">
-                  <h4>An overall wonderful and rewarding experience</h4>
+                  <h4>The quality of the cuts is excellent</h4>
                   <p>
-                    “ Thank you for the wonderful experience! I now have a job I
-                    really enjoy, and make a good living while doing something I
-                    love. ”
+                    “ The cutters offer precision and a good finish, though I’ve
+                    found that for certain materials , they require more
+                    frequent re-sharpening. Still, they’ve held up well in our
+                    shop and provide great value overall”
                   </p>
                 </div>
               </div>
@@ -150,9 +150,8 @@ export default function HomePage3() {
                 </div>
                 <div className="review">
                   <h4>
-                    Awesome teaching support from TAs who did the bootcamp
-                    themselves. Getting guidance from them and learning from
-                    their experiences was easy.
+                    The quality of the teeth is incredibly precise, even for
+                    complex, high-precision applications
                   </h4>
                   <p>
                     “ Steelman gear cutters are a solid choice for general gear

@@ -323,6 +323,7 @@
   text-align: center;
   min-height: 100px;
   width: 15%;
+  min-width: 200px;
   max-width: 300px;
   height: auto;
   background-color: white;

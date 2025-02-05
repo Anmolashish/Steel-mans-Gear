@@ -3,6 +3,12 @@ import React from "react";
 export default function AboutPage4() {
   return (
     <div className="about-page-4">
+      <div className="image-div">
+        <img
+          src="https://www.sudarshangear.in/img/why-choose-us-img.png"
+          alt="Why choose the gear edge"
+        />
+      </div>
       <div className="text-div">
         <div className="about-page-4-heading">Why choose us</div>
         <div className="about-page-4-description">
@@ -24,12 +30,6 @@ export default function AboutPage4() {
             improve operational reliability, and reduce downtime.{" "}
           </span>
         </div>
-      </div>
-      <div className="image-div">
-        <img
-          src="https://www.sudarshangear.in/img/why-choose-us-img.png"
-          alt="Why choose the gear edge"
-        />
       </div>
     </div>
   );

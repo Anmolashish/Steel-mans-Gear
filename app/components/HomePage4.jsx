@@ -59,7 +59,11 @@ export default function QuickQueryFAQ() {
             </div>
             <div className="form-group">
               <label htmlFor="name">Fax:</label>
-              <input type="text" id="name" placeholder="Enter you fax here" />
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter you fax number here"
+              />
             </div>
             <div className="form-group">
               <label htmlFor="email">Email:</label>
