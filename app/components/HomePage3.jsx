@@ -46,19 +46,17 @@ export default function HomePage3() {
                 </div>
                 <div className="review">
                   <h4>
-                    I received a job offer mid-course, and the subjects I
-                    learned were current, if not more so, in the company I
-                    joined. I honestly feel I got every penny’s worth.
+                    Steelman gear cutters are a solid choice for general gear
+                    cutting.
                   </h4>
                   <p>
-                    “ We’ve been using Steelman gear hobs for our manufacturing
-                    process for several years, and they’ve never disappointed.
-                    The accuracy and quality of the teeth they cut are
-                    exceptional. We use them for producing high-quality spur
-                    gears, and the hobs give us a consistently smooth finish
-                    with minimal burrs. The durability is also impressive – even
-                    after extended use, they retain their sharpness well. Highly
-                    recommended for anyone in need of reliable hobs!”
+                    “ We’ve used them for a variety of projects, from smaller
+                    gears to larger, high-torque applications, and they have
+                    performed well. The cutters offer precision and a good
+                    finish, though I’ve found that for certain materials (like
+                    hardened steel), they require more frequent re-sharpening.
+                    Still, they’ve held up well in our shop and provide great
+                    value overall. ”
                   </p>
                 </div>
               </div>
@@ -161,10 +159,9 @@ export default function HomePage3() {
                     cutting. We’ve used them for a variety of projects, from
                     smaller gears to larger, high-torque applications, and they
                     have performed well. The cutters offer precision and a good
-                    finish, though I’ve found that for certain materials (like
-                    hardened steel), they require more frequent re-sharpening.
-                    Still, they’ve held up well in our shop and provide great
-                    value overall. ”
+                    finish, though I’ve found that for certain materials , they
+                    require more frequent re-sharpening. Still, they’ve held up
+                    well in our shop and provide great value overall. ”
                   </p>
                 </div>
               </div>

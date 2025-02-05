@@ -1022,9 +1022,15 @@ a:hover {
   padding: 15px 2px;
   font-weight: bolder;
   border-radius: 4px;
+  color: white;
+  text-decoration: none;
 }
 
-.navbar-tab:hover {
+.navbar-tab a {
+  color: white;
+}
+
+.navbar-tab:hover a {
   color: #0091ff;
 }
 

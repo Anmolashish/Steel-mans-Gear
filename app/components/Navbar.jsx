@@ -55,11 +55,11 @@ export default function Navbar() {
                 Contact
               </Link>
             </div>
-            <div className="navbar-link">
+            {/* <div className="navbar-link">
               <Link className="no-decoration" href={"/"}>
                 Blog
               </Link>
-            </div>
+            </div> */}
           </div>
 
           <a
@@ -88,7 +88,7 @@ export default function Navbar() {
                 </Link>
               </div>
               <div className="navbar-tab">
-                <Link className="no-decoration" href={"/"}>
+                <Link className="no-decoration" href={"/about"}>
                   About
                 </Link>
               </div>
@@ -102,11 +102,11 @@ export default function Navbar() {
                   Contact
                 </Link>
               </div>
-              <div className="navbar-tab">
+              {/* <div className="navbar-tab">
                 <Link className="no-decoration" href={"/"}>
                   Blogs
                 </Link>
-              </div>
+              </div> */}
             </div>
             <div className="lower-side-navbar flex justify-center align-center">
               <a
