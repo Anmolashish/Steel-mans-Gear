@@ -2,6 +2,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Bai_Jamjuree } from "next/font/google";
 import "@/styles/globals.css";
 import "@/styles/utility.css";
+import "@/styles/about-style.css";
+import "@/styles/product-style.css";
+import Loader from "./components/Loader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +36,7 @@ export default function RootLayout({ children }) {
           "${geistSans.variable} ${geistMono.variable} ${baiJamjuree.variable}"
         }
       >
+        <Loader />
         {children}
       </body>
     </html>

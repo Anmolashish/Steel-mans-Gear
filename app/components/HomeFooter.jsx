@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HomeFooter() {
   return (
     <div className="home-footer">
@@ -6,15 +8,29 @@ export default function HomeFooter() {
       </div>
       <div className="footer-options-section-1">
         <div className="footer-option-heading">Quick links</div>
-        <div className="footer-option">Home</div>
-        <div className="footer-option">Products</div>
-        <div className="footer-option">About</div>
+
+        <Link href={"/"} className="no-decoration">
+          <div className="footer-option">Home</div>
+        </Link>
+
+        <Link href={"/products"} className="no-decoration">
+          <div className="footer-option">Products</div>
+        </Link>
+        <Link href={"/about"} className="no-decoration">
+          <div className="footer-option">About</div>
+        </Link>
       </div>
       <div className="footer-options-section-2">
         <div className="footer-option-heading">hello</div>
-        <div className="footer-option">Contact</div>
-        <div className="footer-option">Review</div>
-        <div className="footer-option">Blogs</div>
+        <Link href={"/contact"} className="no-decoration">
+          <div className="footer-option">Contact</div>
+        </Link>
+        <Link href={"/"} className="no-decoration">
+          <div className="footer-option">Review</div>
+        </Link>
+        <Link href={"/"} className="no-decoration">
+          <div className="footer-option">Blogs</div>
+        </Link>
       </div>
 
       <div className="footer-options-section-4">

@@ -1,3 +1,3 @@
-export default function AboutPage1() {
-  return <div className="about-header-div">About us</div>;
+export default function AboutPage1(props) {
+  return <div className="about-header-div">{props.name}</div>;
 }

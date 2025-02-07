@@ -38,7 +38,7 @@ export default function Navbar() {
               </Link>
             </div>
             <div className="navbar-link">
-              <Link className="no-decoration" href={"/"}>
+              <Link className="no-decoration" href={"/products"}>
                 Products
               </Link>
 
@@ -51,7 +51,7 @@ export default function Navbar() {
             </div>
 
             <div className="navbar-link">
-              <Link className="no-decoration" href={"/"}>
+              <Link className="no-decoration" href={"/contact"}>
                 Contact
               </Link>
             </div>
@@ -93,12 +93,12 @@ export default function Navbar() {
                 </Link>
               </div>
               <div className="navbar-tab">
-                <Link className="no-decoration" href={"/"}>
+                <Link className="no-decoration" href={"/products"}>
                   Products
                 </Link>
               </div>
               <div className="navbar-tab">
-                <Link className="no-decoration" href={"/"}>
+                <Link className="no-decoration" href={"/contact"}>
                   Contact
                 </Link>
               </div>

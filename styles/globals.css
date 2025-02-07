@@ -962,6 +962,7 @@ a:hover {
   position: relative;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .lower-footer-tape {
