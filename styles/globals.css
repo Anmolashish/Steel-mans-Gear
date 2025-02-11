@@ -27,13 +27,13 @@
   gap: 10px;
 }
 
-.navbar-link a {
+.navbar-link > a {
   color: white;
   font-size: 16px;
   font-weight: bolder;
 }
 
-.navbar-link:hover a {
+.navbar-link:hover > a {
   color: #009afe;
 }
 
@@ -85,10 +85,12 @@
   display: block;
 }
 
-.dropdown-categories > p {
+.dropdown-categories > p,
+.dropdown-categories a {
   padding: 15px 0px;
   width: 100%;
   border-bottom: 1px solid gray;
+  color: black;
 }
 
 .navbar-link {

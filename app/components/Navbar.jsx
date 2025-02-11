@@ -43,10 +43,40 @@ export default function Navbar() {
               </Link>
 
               <div className="dropdown-categories">
-                <p>Gear hobs</p>
-                <p>Gear cutters</p>
-                <p>Spiral bevel cutters</p>
-                <p>Straight bevel cutters</p>
+                <p>
+                  <Link className="no-decoration" href={"/products"}>
+                    All
+                  </Link>
+                </p>
+                <p>
+                  <Link className="no-decoration" href={"/products/gear-hobs"}>
+                    Gear hobs
+                  </Link>
+                </p>
+                <p>
+                  <Link
+                    className="no-decoration"
+                    href={"/products/gear-cutters"}
+                  >
+                    Gear cutters
+                  </Link>
+                </p>
+                <p>
+                  <Link
+                    className="no-decoration"
+                    href={"/products/spiral-bevel-cutters"}
+                  >
+                    Spiral bevel cutters
+                  </Link>
+                </p>
+                <p>
+                  <Link
+                    className="no-decoration"
+                    href={"/products/straight-bevel-cutters"}
+                  >
+                    Straight bevel cutters
+                  </Link>
+                </p>
               </div>
             </div>
 
