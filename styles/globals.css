@@ -411,6 +411,10 @@
   cursor: pointer;
 }
 
+.featured-categories a {
+  color: rgba(255, 255, 255, 0.767);
+}
+
 .featured-category:hover {
   color: white;
 }
@@ -454,6 +458,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: white;
 }
 
 @media (max-width: 1200px) {
@@ -1040,4 +1045,11 @@ a:hover {
 
 .lower-side-navbar {
   padding-bottom: 2rem;
+}
+
+@media (max-width: 433px) {
+  .footer-options-section-2 .footer-option-heading,
+  .footer-options-section-4 > .footer-option:last-child {
+    display: none;
+  }
 }

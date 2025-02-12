@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomePage1() {
   const images = ["/Images/cogs-8941860.jpg", "/Images/next-image.jpg"];
@@ -37,7 +38,9 @@ export default function HomePage1() {
         <p className="home-page-subline">
           Find expert-reviewed gears to make smarter buying decisions.
         </p>
-        <button className="find-gears">Start Exploring</button>
+        <Link href={"/about"}>
+          <button className="find-gears">Start Exploring</button>
+        </Link>
       </div>
       <div className="under-overlay"></div>
     </div>

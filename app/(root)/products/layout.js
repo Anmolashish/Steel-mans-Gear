@@ -23,9 +23,9 @@ export default function layout({ children }) {
               </div>
               <div className="product-category-selector-dropdown">
                 <img
-                  width="10"
-                  height="10"
-                  src="https://img.icons8.com/ios-filled/50/FFFFFF/expand-arrow--v1.png"
+                  width="20"
+                  height="20"
+                  src="https://img.icons8.com/material-rounded/24/FFFFFF/forward.png"
                   alt="expand-arrow--v1"
                 />
               </div>
@@ -38,9 +38,9 @@ export default function layout({ children }) {
               </div>
               <div className="product-category-selector-dropdown">
                 <img
-                  width="10"
-                  height="10"
-                  src="https://img.icons8.com/ios-filled/50/FFFFFF/expand-arrow--v1.png"
+                  width="20"
+                  height="20"
+                  src="https://img.icons8.com/material-rounded/24/FFFFFF/forward.png"
                   alt="expand-arrow--v1"
                 />
               </div>
@@ -53,9 +53,9 @@ export default function layout({ children }) {
               </div>
               <div className="product-category-selector-dropdown">
                 <img
-                  width="10"
-                  height="10"
-                  src="https://img.icons8.com/ios-filled/50/FFFFFF/expand-arrow--v1.png"
+                  width="20"
+                  height="20"
+                  src="https://img.icons8.com/material-rounded/24/FFFFFF/forward.png"
                   alt="expand-arrow--v1"
                 />
               </div>
@@ -71,9 +71,9 @@ export default function layout({ children }) {
               </div>
               <div className="product-category-selector-dropdown">
                 <img
-                  width="10"
-                  height="10"
-                  src="https://img.icons8.com/ios-filled/50/FFFFFF/expand-arrow--v1.png"
+                  width="20"
+                  height="20"
+                  src="https://img.icons8.com/material-rounded/24/FFFFFF/forward.png"
                   alt="expand-arrow--v1"
                 />
               </div>
@@ -89,9 +89,9 @@ export default function layout({ children }) {
               </div>
               <div className="product-category-selector-dropdown">
                 <img
-                  width="10"
-                  height="10"
-                  src="https://img.icons8.com/ios-filled/50/FFFFFF/expand-arrow--v1.png"
+                  width="20"
+                  height="20"
+                  src="https://img.icons8.com/material-rounded/24/FFFFFF/forward.png"
                   alt="expand-arrow--v1"
                 />
               </div>

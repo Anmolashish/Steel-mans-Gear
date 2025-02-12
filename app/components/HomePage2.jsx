@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ProductCard from "./ProductCard";
 
 export default function HomePage2() {
@@ -48,13 +49,32 @@ export default function HomePage2() {
             style={{ backgroundColor: "white", height: "25px" }}
           ></div>
           <div className="featured-categories ">
-            <div className="featured-category">ALL</div>
-            <div className="featured-category">GEAR HOBS</div>
-            <div className="featured-category">GEAR CUTTERS</div>
-            <div className="featured-category">SPIRAL BEVEL GEAR CUTTERS</div>
-            <div className="featured-category">
-              STRAIGHT BEVEL GEARS CUTTERS{" "}
-            </div>
+            <Link className="no-decoration" href={"/products"}>
+              <div className="featured-category">ALL</div>
+            </Link>
+            <Link className="no-decoration" href={"/products/gear-hobs"}>
+              <div className="featured-category">GEAR HOBS</div>
+            </Link>
+
+            <Link className="no-decoration" href={"/products/gear-cutters"}>
+              <div className="featured-category">GEAR CUTTERS</div>
+            </Link>
+
+            <Link
+              className="no-decoration"
+              href={"/products/spiral-bevel-cutters"}
+            >
+              <div className="featured-category">SPIRAL BEVEL GEAR CUTTERS</div>
+            </Link>
+
+            <Link
+              className="no-decoration"
+              href={"/products/straight-bevel-cutters"}
+            >
+              <div className="featured-category">
+                STRAIGHT BEVEL GEARS CUTTERS{" "}
+              </div>
+            </Link>
           </div>
         </div>
 
@@ -70,16 +90,19 @@ export default function HomePage2() {
               />
             );
           })}
+
           <div className="search-more-outer-div">
-            <div className="search-more">
-              <img
-                width="40"
-                height="40"
-                src="https://img.icons8.com/ios/50/FFFFFF/add.png"
-                alt="add"
-              />
-              Click here to search more
-            </div>
+            <Link className="no-decoration" href={"/products"}>
+              <div className="search-more">
+                <img
+                  width="40"
+                  height="40"
+                  src="https://img.icons8.com/ios/50/FFFFFF/add.png"
+                  alt="add"
+                />
+                Click here to search more
+              </div>
+            </Link>
           </div>
         </div>
       </div>

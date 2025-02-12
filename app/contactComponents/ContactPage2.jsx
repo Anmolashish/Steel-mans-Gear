@@ -31,15 +31,15 @@ export default function ContactPage2() {
         </h1>
         <div className="contact-page-2-description">
           <p>
-            <span>We </span> are here to assist you with any questions,
-            inquiries, or support needs you may have. Whether you need more
-            information about our services, require assistance with a specific
-            issue, or simply want to get in touch, our team is ready to help.
+            We are here to assist you with any questions, inquiries, or support
+            needs you may have. Whether you need more information about our
+            services, require assistance with a specific issue, or simply want
+            to get in touch, our team is ready to help.
           </p>
           <p>
-            <span>Feel</span> free to reach out to us through our contact form,
-            email, or phone, and we will respond as soon as possible. Your
-            satisfaction is our priority, and we look forward to assisting you!
+            Feel free to reach out to us through our contact form, email, or
+            phone, and we will respond as soon as possible. Your satisfaction is
+            our priority, and we look forward to assisting you!
           </p>
         </div>
       </div>
