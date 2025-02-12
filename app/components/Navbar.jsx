@@ -113,22 +113,34 @@ export default function Navbar() {
           <div className="side-navbar flex-column justify-space-between">
             <div className="side-navbar-tabs">
               <div className="navbar-tab">
-                <Link className="no-decoration" href={"/"}>
+                <Link className="no-decoration" href={"/"} onClick={sidebar}>
                   Home
                 </Link>
               </div>
               <div className="navbar-tab">
-                <Link className="no-decoration" href={"/about"}>
+                <Link
+                  className="no-decoration"
+                  href={"/about"}
+                  onClick={sidebar}
+                >
                   About
                 </Link>
               </div>
               <div className="navbar-tab">
-                <Link className="no-decoration" href={"/products"}>
+                <Link
+                  className="no-decoration"
+                  href={"/products"}
+                  onClick={sidebar}
+                >
                   Products
                 </Link>
               </div>
               <div className="navbar-tab">
-                <Link className="no-decoration" href={"/contact"}>
+                <Link
+                  className="no-decoration"
+                  href={"/contact"}
+                  onClick={sidebar}
+                >
                   Contact
                 </Link>
               </div>
