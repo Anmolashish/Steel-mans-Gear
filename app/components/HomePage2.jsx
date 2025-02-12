@@ -92,16 +92,14 @@ export default function HomePage2() {
           })}
 
           <div className="search-more-outer-div">
-            <Link className="no-decoration" href={"/products"}>
-              <div className="search-more">
-                <img
-                  width="40"
-                  height="40"
-                  src="https://img.icons8.com/ios/50/FFFFFF/add.png"
-                  alt="add"
-                />
-                Click here to search more
-              </div>
+            <Link className="no-decoration search-more" href={"/products"}>
+              <img
+                width="40"
+                height="40"
+                src="https://img.icons8.com/ios/50/FFFFFF/add.png"
+                alt="add"
+              />
+              Click here to search more
             </Link>
           </div>
         </div>

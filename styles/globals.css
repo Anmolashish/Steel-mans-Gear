@@ -461,7 +461,7 @@
   color: white;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1441px) {
   .featured-products {
     flex-wrap: wrap;
   }
