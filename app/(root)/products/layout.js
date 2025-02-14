@@ -3,6 +3,12 @@ import AboutPage1 from "@/app/aboutComponents/AboutPage1";
 import ProductPage1 from "@/app/productComponents/ProductPage1";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Steel Mans Gears - Products",
+  description:
+    "This app is created for the Steel Mans gears and they are famously known for their product sold for gears",
+};
+
 export default function layout({ children }) {
   return (
     <div>

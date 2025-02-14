@@ -23,12 +23,6 @@ const baiJamjuree = Bai_Jamjuree({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "Steel Mans Gears - Home",
-  description:
-    "This app is created for the Steel Mans gears and they are famously known for their product sold for gears",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

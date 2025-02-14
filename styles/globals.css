@@ -1053,3 +1053,57 @@ a:hover {
     display: none;
   }
 }
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  color: black;
+}
+
+.popup-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+
+  float: right;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 30px;
+}
+
+.popup-rating {
+  color: gold;
+}
+
+.popup-rating > span {
+  color: black;
+}
+
+.popup-image > img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 15px;
+}

@@ -11,18 +11,18 @@ export default function QuickQueryFAQ() {
 
   const faqData = [
     {
-      question: "What types of gears does Steelman manufacture?",
+      question: "What types of gears does steelmans manufacture?",
       answer:
-        "Steelman manufactures a wide variety of gears, including spur gears, helical gears, bevel gears, planetary gears, worm gears, and custom-designed gears. We provide solutions for high-performance applications across various industries.",
+        "steelmans manufactures a wide variety of gears, including spur gears, helical gears, bevel gears, planetary gears, worm gears, and custom-designed gears. We provide solutions for high-performance applications across various industries.",
     },
     {
-      question: "Is Steelman an ISO-certified manufacturer?",
+      question: "Is steelmans an ISO-certified manufacturer?",
       answer:
-        "Yes, Steelman is ISO-certified. Our processes adhere to strict international standards, ensuring that every gear meets the highest quality and precision benchmarks.",
+        "Yes, steelmans is ISO-certified. Our processes adhere to strict international standards, ensuring that every gear meets the highest quality and precision benchmarks.",
     },
     {
       question:
-        "Can Steelman manufacture custom gears for specific applications?",
+        "Can steelmans manufacture custom gears for specific applications?",
       answer:
         "Absolutely! We work with clients to create tailored gear solutions that meet unique requirements—from special materials to custom tooth profiles.",
     },

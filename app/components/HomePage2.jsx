@@ -8,7 +8,7 @@ export default function HomePage2() {
       name: "Involute Gear Hobs",
       description:
         " Involute Gear Hobs for generating gears of maximum accuracy, manufactured in finishing, pre-shaving with or without protuberance and semi topping profiles. ",
-      image: "https://steelmansgears.com/imgs/shank_type_shaper_cutters.jpg",
+      image: "https://steelmansgears.com/imgs/involute-gear-hobs-big.jpg",
       review: 4,
     },
 
@@ -26,7 +26,7 @@ export default function HomePage2() {
       name: "Sharper Cutters ",
       description:
         " Sharper cutters is used to cut internal gears of small diameter and spline holes. They can also be designed for external gears depending on the job. ",
-      image: "https://steelmansgears.com/imgs/involute-gear-hobs-big.jpg",
+      image: "https://steelmansgears.com/imgs/shank_type_shaper_cutters.jpg",
       review: 3,
     },
 
